@@ -409,89 +409,90 @@ export default function ClientHomePage() {
             </div>
           </section>
 
-          {/* Enhanced SEO Content Section */}
-          <section className="mb-20 bg-gradient-to-r from-gray-50 to-pink-50 rounded-2xl p-8 md:p-12">
-            <article className="prose prose-lg max-w-none text-gray-700">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
-                Panduan Lengkap Memilih Set Bekal Anak Terbaik
-              </h2>
+{/* Set Bekal Anak Content Section */}
+<section className="mb-20 bg-gradient-to-r from-gray-50 to-pink-50 rounded-2xl p-8 md:p-12">
+  <article className="prose prose-lg max-w-none text-gray-700">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
+      Panduan Lengkap Memilih Set Bekal Anak Terbaik
+    </h2>
 
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div>
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">🎯 Kriteria Set Bekal Anak Berkualitas</h3>
-                  <ul className="space-y-2">
-                    <li><strong>Material Food Grade:</strong> Bebas BPA dan zat berbahaya</li>
-                    <li><strong>Anti Bocor:</strong> Sistem kedap udara yang sempurna</li>
-                    <li><strong>Mudah Dibersihkan:</strong> Permukaan halus anti noda</li>
-                    <li><strong>Ukuran Tepat:</strong> Sesuai porsi makan anak sekolah</li>
-                    <li><strong>Design Menarik:</strong> Karakter favorit anak</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">⭐ Keunggulan Produk Kami</h3>
-                  <ul className="space-y-2">
-                    <li><strong>{products.length}+ Pilihan Karakter:</strong> Selalu ada yang disukai anak</li>
-                    <li><strong>Halaman Detail Lengkap:</strong> Informasi produk transparan</li>
-                    <li><strong>Review Pelanggan:</strong> Testimoni nyata dari orang tua</li>
-                    <li><strong>Garansi Produk:</strong> Jaminan kualitas dari kami</li>
-                    <li><strong>Pelayanan Terbaik:</strong> Customer service responsif 24/7</li>
-                  </ul>
-                </div>
-              </div>
+    <div className="grid md:grid-cols-2 gap-8 mb-8">
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 mb-4">🎯 Kriteria Set Bekal Anak Berkualitas</h3>
+        <ul className="space-y-2">
+          <li><strong>Material Food Grade:</strong> Bebas BPA dan zat berbahaya</li>
+          <li><strong>Anti Bocor:</strong> Sistem kedap udara yang sempurna</li>
+          <li><strong>Mudah Dibersihkan:</strong> Permukaan halus anti noda</li>
+          <li><strong>Ukuran Tepat:</strong> Sesuai porsi makan anak sekolah</li>
+          <li><strong>Desain Menarik:</strong> Karakter favorit anak</li>
+        </ul>
+      </div>
+      
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 mb-4">⭐ Keunggulan Produk Kami</h3>
+        <ul className="space-y-2">
+          <li><strong>{products.length}+ Pilihan Karakter:</strong> Selalu ada yang disukai anak</li>
+          <li><strong>Halaman Detail Lengkap:</strong> Informasi produk transparan</li>
+          <li><strong>Review Pelanggan:</strong> Testimoni nyata dari orang tua</li>
+          <li><strong>Garansi Produk:</strong> Jaminan kualitas dari kami</li>
+          <li><strong>Pelayanan Terbaik:</strong> Customer service responsif 24/7</li>
+        </ul>
+      </div>
+    </div>
 
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">🌟 Koleksi Set Bekal Anak Terlengkap di Indonesia</h3>
-              <p className="mb-6 text-lg leading-relaxed">
-                Kami menyediakan <strong>set bekal anak</strong> dengan berbagai tema dan karakter yang paling disukai anak-anak Indonesia. 
-                Setiap produk memiliki halaman detail tersendiri dengan informasi lengkap, foto multiple angle, spesifikasi teknis, 
-                dan review dari pelanggan yang sudah membeli. Ini memudahkan Anda untuk memilih produk yang tepat.
-              </p>
+    <h3 className="text-2xl font-semibold text-gray-900 mb-6">🌟 Koleksi Set Bekal Anak Terlengkap di Indonesia</h3>
+    <p className="mb-6 text-lg leading-relaxed">
+      Kami menyediakan <strong>set bekal anak</strong> dengan berbagai tema dan karakter yang paling disukai anak-anak Indonesia. 
+      Setiap produk memiliki halaman detail tersendiri dengan informasi lengkap, foto multiple angle, spesifikasi teknis, 
+      dan review dari pelanggan yang sudah membeli. Ini memudahkan Anda untuk memilih produk yang tepat.
+    </p>
 
-              <div className="bg-white rounded-xl p-6 shadow-lg mb-8">
-                <h4 className="text-xl font-semibold text-gray-900 mb-4">📦 Mengapa Halaman Detail Produk Penting?</h4>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div>
-                    <h5 className="font-medium text-gray-900 mb-2">Informasi Lengkap:</h5>
-                    <ul className="text-sm space-y-1 text-gray-600">
-                      <li>• Spesifikasi detail setiap item</li>
-                      <li>• Foto produk dari berbagai sudut</li>
-                      <li>• Panduan cara penggunaan</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h5 className="font-medium text-gray-900 mb-2">Review Asli:</h5>
-                    <ul className="text-sm space-y-1 text-gray-600">
-                      <li>• Testimoni orang tua lain</li>
-                      <li>• Foto penggunaan nyata</li>
-                      <li>• Tips dan saran dari pembeli</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h5 className="font-medium text-gray-900 mb-2">Panduan Pemilihan:</h5>
-                    <ul className="text-sm space-y-1 text-gray-600">
-                      <li>• Rekomendasi usia yang sesuai</li>
-                      <li>• Perbandingan dengan produk lain</li>
-                      <li>• Tips perawatan produk</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h5 className="font-medium text-gray-900 mb-2">SEO Benefits:</h5>
-                    <ul className="text-sm space-y-1 text-gray-600">
-                      <li>• Setiap produk punya URL unik</li>
-                      <li>• Content rich untuk search engine</li>
-                      <li>• Better ranking di Google</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+    <div className="bg-white rounded-xl p-6 shadow-lg mb-8">
+      <h4 className="text-xl font-semibold text-gray-900 mb-4">📦 Mengapa Halaman Detail Produk Penting?</h4>
+      <div className="grid sm:grid-cols-2 gap-4">
+        <div>
+          <h5 className="font-medium text-gray-900 mb-2">Informasi Lengkap:</h5>
+          <ul className="text-sm space-y-1 text-gray-600">
+            <li>• Spesifikasi detail setiap item</li>
+            <li>• Foto produk dari berbagai sudut</li>
+            <li>• Panduan cara penggunaan</li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="font-medium text-gray-900 mb-2">Review Asli:</h5>
+          <ul className="text-sm space-y-1 text-gray-600">
+            <li>• Testimoni orang tua lain</li>
+            <li>• Foto penggunaan nyata</li>
+            <li>• Tips dan saran dari pembeli</li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="font-medium text-gray-900 mb-2">Panduan Pemilihan:</h5>
+          <ul className="text-sm space-y-1 text-gray-600">
+            <li>• Rekomendasi usia yang sesuai</li>
+            <li>• Perbandingan dengan produk lain</li>
+            <li>• Tips perawatan produk</li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="font-medium text-gray-900 mb-2">Nilai Tambah:</h5>
+          <ul className="text-sm space-y-1 text-gray-600">
+            <li>• Setiap produk punya halaman unik</li>
+            <li>• Konten detail untuk membantu orang tua</li>
+            <li>• Lebih mudah membandingkan pilihan</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-              <p className="text-lg leading-relaxed">
-                Investasi terbaik untuk kebiasaan makan sehat anak di sekolah. Dengan <strong>set bekal anak</strong> berkualitas 
-                dan informasi lengkap di setiap halaman produk, Anda bisa membuat keputusan pembelian yang tepat. 
-                Klik setiap produk untuk melihat detail lengkapnya!
-              </p>
-            </article>
-          </section>
+    <p className="text-lg leading-relaxed">
+      Investasi terbaik untuk kebiasaan makan sehat anak di sekolah. Dengan <strong>set bekal anak</strong> berkualitas 
+      dan informasi lengkap di setiap halaman produk, Anda bisa membuat keputusan pembelian yang tepat. 
+      Klik setiap produk untuk melihat detail lengkapnya!
+    </p>
+  </article>
+</section>
+
 
           {/* Enhanced CTA Section */}
           <section className="text-center bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-2xl p-12 shadow-2xl">
