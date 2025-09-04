@@ -1,110 +1,132 @@
 export const products = [
   {
     id: 1,
-    name: "Set Bekal Anak Unicorn",
+    name: "Set Bekal Anak Avengers",
+    slug: "set-bekal-anak-avengers",
     description:
-      "Set bekal lucu dengan tema unicorn, dilengkapi kotak makan dan botol minum anti tumpah untuk anak sekolah.",
-    image: "/images/set-bekal-anak-unicorn.jpg",
+      "Set bekal Avengers lengkap dengan botol 350ml sedotan, sendok garpu stainless, kotak makan sekat 3, dan tas foil tenteng praktis.",
+    image: "/set-bekal-gallery/set-bekal-avengers-botl350mlsedotan-sendokgarpustainless-kotakmakansekat3-tasfoiltenteng.jpg",
   },
   {
     id: 2,
-    name: "Set Bekal Anak Superhero",
+    name: "Set Bekal Anak Spiderman Sekat",
+    slug: "set-bekal-anak-spiderman-sekat",
     description:
-      "Kotak bekal anak dengan desain superhero favorit, praktis dan aman untuk dibawa ke sekolah setiap hari.",
-    image: "/images/set-bekal-anak-superhero.jpg",
+      "Set bekal Spiderman dengan botol 450ml sedotan dan kotak makan plastik sekat, ringan dan mudah dibawa anak ke sekolah.",
+    image: "/set-bekal-gallery/set-bekal-botol450mlsedotan-kotakmakanplastiksekat-spiderman.jpg",
   },
   {
     id: 3,
-    name: "Set Bekal Anak Princess",
-    description: "Set bekal cantik bertema princess dengan warna pink yang menarik, cocok untuk putri kecil Anda.",
-    image: "/images/set-bekal-anak-princess.jpg",
+    name: "Set Bekal Anak Kuromi Premium",
+    slug: "set-bekal-anak-kuromi-premium",
+    description:
+      "Set bekal Kuromi botol 550ml teguk, sendok garpu stainless, kotak makan, dan tas tenteng elegan.",
+    image: "/set-bekal-gallery/set-bekal-kuromi-botl550mlteguk-sendokgarpustainless-kotakmakan-tastenteng.jpg",
   },
   {
     id: 4,
-    name: "Set Bekal Anak Dinosaurus",
-    description: "Bekal anak dengan gambar dinosaurus yang lucu, terbuat dari bahan food grade yang aman untuk anak.",
-    image: "/images/set-bekal-anak-dinosaurus.jpg",
+    name: "Set Bekal Kuromi Stainless",
+    slug: "set-bekal-kuromi-stainless",
+    description:
+      "Set bekal Kuromi kotak makan stainless, botol sedotan 450ml, dan sendok garpu praktis.",
+    image: "/set-bekal-gallery/set-bekal-kuromi-kotak-makan-stainless-botol-sedotan-450ml-sendok-garpu.jpg",
   },
   {
     id: 5,
-    name: "Set Bekal Anak Karakter Anime",
-    description: "Set bekal dengan karakter anime populer, dilengkapi tas bekal yang praktis dan mudah dibawa.",
-    image: "/images/set-bekal-anak-anime.jpg",
+    name: "Set Bekal Anak Minecraft",
+    slug: "set-bekal-anak-minecraft",
+    description:
+      "Set bekal Minecraft dengan botol 620ml plastik dan kotak makan sekat, cocok untuk anak penggemar game.",
+    image: "/set-bekal-gallery/set-bekal-minecraft-botl620mlplastik-kotakmakansekat.jpg",
   },
   {
     id: 6,
-    name: "Set Bekal Anak Mobil Balap",
-    description: "Kotak bekal bertema mobil balap yang keren, ideal untuk anak laki-laki yang suka otomotif.",
-    image: "/images/set-bekal-anak-mobil.jpg",
+    name: "Set Bekal Spiderman Simple",
+    slug: "set-bekal-spiderman-simple",
+    description:
+      "Bekal anak Spiderman dengan botol 450ml dan kotak makan plastik, desain simple untuk pemakaian sehari-hari.",
+    image: "/set-bekal-gallery/set-bekal-spiderman-botol450ml-kotakmakanplastik.jpg",
   },
   {
     id: 7,
-    name: "Set Bekal Anak Hello Kitty",
-    description: "Set bekal Hello Kitty yang imut dan menggemaskan, lengkap dengan sendok garpu plastik yang aman.",
-    image: "/images/set-bekal-anak-hellokitty.jpg",
+    name: "Set Bekal Tas Foil Stainless",
+    slug: "set-bekal-tas-foil-stainless",
+    description:
+      "Set bekal dengan tas foil tenteng, botol 450ml teguk/sedotan, sendok garpu stainless, dan kotak makan sekat.",
+    image: "/set-bekal-gallery/set-bekal-tas-foil-tenteng-450mlsedotanteguk-sendokgarpustainless-kotakmakan.jpg",
   },
   {
     id: 8,
-    name: "Set Bekal Anak Frozen",
+    name: "Set Bekal Tas 2 Susun",
+    slug: "set-bekal-tas-2-susun",
     description:
-      "Bekal anak tema Frozen dengan Elsa dan Anna, dilengkapi botol minum dengan sedotan yang mudah digunakan.",
-    image: "/images/set-bekal-anak-frozen.jpg",
+      "Set bekal tas tenteng 2 susun, kotak makan sekat 3 stainless, sendok garpu, dan botol 450ml.",
+    image: "/set-bekal-gallery/set-bekal-tasbekal2susun-kotak-makan-sekat3-stainless-sendokgarpu-botol450ml.jpg",
   },
   {
     id: 9,
-    name: "Set Bekal Anak Panda",
+    name: "Set Bekal Tas Foil Plastik",
+    slug: "set-bekal-tas-foil-plastik",
     description:
-      "Set bekal lucu dengan desain panda yang menggemaskan, terbuat dari bahan berkualitas tinggi dan tahan lama.",
-    image: "/images/set-bekal-anak-panda.jpg",
+      "Set bekal tas foil tenteng dengan kotak makan sekat plastik, sendok garpu, dan botol 450ml sedotan.",
+    image: "/set-bekal-gallery/set-bekal-tasfoiltenteng-kotakmakansekatplastik-sendokgarpu-botol450mlsedotan.jpg",
   },
   {
     id: 10,
-    name: "Set Bekal Anak Spiderman",
+    name: "Set Bekal Tas Foil Stainless",
+    slug: "set-bekal-tas-foil-stainless-2",
     description:
-      "Kotak bekal Spiderman yang keren untuk anak superhero, dilengkapi dengan kompartemen terpisah untuk makanan.",
-    image: "/images/set-bekal-anak-spiderman.jpg",
+      "Set bekal tas foil tenteng dengan kotak makan sekat plastik, sendok garpu stainless, dan botol 350ml sedotan.",
+    image: "/set-bekal-gallery/set-bekal-tasfoiltenteng-kotakmakansekatplastik-sendokgarpustainless-botol350mlsedotan.jpg",
   },
   {
     id: 11,
-    name: "Set Bekal Anak Doraemon",
+    name: "Set Bekal Tas Foil Sekat 3",
+    slug: "set-bekal-tas-foil-sekat-3",
     description:
-      "Set bekal Doraemon yang populer di kalangan anak-anak, praktis dan mudah dibersihkan setelah digunakan.",
-    image: "/images/set-bekal-anak-doraemon.jpg",
+      "Set bekal tas foil tenteng, kotak makan sekat 3, sendok garpu stainless, dan botol 350ml.",
+    image: "/set-bekal-gallery/set-bekal-tasfoiltetneng-kotakmakansekat3=sendokgarpustainles-botol350ml.jpg",
   },
   {
     id: 12,
-    name: "Set Bekal Anak Minions",
+    name: "Set Bekal Tas Tenteng 650ml",
+    slug: "set-bekal-tas-tenteng-650ml",
     description:
-      "Bekal anak dengan karakter Minions yang lucu dan menghibur, cocok untuk menemani waktu makan anak di sekolah.",
-    image: "/images/set-bekal-anak-minions.jpg",
+      "Set bekal tas tenteng foil dengan botol 650ml sedotan, sendok garpu stainless, dan kotak makan.",
+    image: "/set-bekal-gallery/set-bekal-tastentengfoil-botol650mlsedotan-sendokgarpustainless-kotakmakan.jpg",
   },
   {
     id: 13,
-    name: "Set Bekal Anak Stainless Steel",
+    name: "Set Bekal Tayo",
+    slug: "set-bekal-anak-tayo",
     description:
-      "Set bekal premium dari bahan stainless steel yang aman dan tahan karat, investasi terbaik untuk kesehatan anak.",
-    image: "/images/set-bekal-anak-stainless.jpg",
+      "Set bekal Tayo dengan tas makan foil, kotak makan sekat plastik, dan botol 450ml sedotan.",
+    image: "/set-bekal-gallery/set-bekal-tayo-tasmakanfoil-kotakmakansekatplastik-botol450mlsedotan.jpg",
   },
   {
     id: 14,
-    name: "Set Bekal Anak Eco Friendly",
+    name: "Set Bekal Thomas Lengkap",
+    slug: "set-bekal-thomas-lengkap",
     description:
-      "Set bekal ramah lingkungan dari bahan daur ulang, mengajarkan anak untuk peduli dengan lingkungan sejak dini.",
-    image: "/images/set-bekal-anak-eco.jpg",
+      "Set bekal Thomas dengan botol 550ml teguk, kotak makan sekat, dan tas bekal tenteng.",
+    image: "/set-bekal-gallery/set-bekal-thomas-botol550mlteguk-kotakmakansekat-tasbekaltenteng.jpg",
   },
   {
     id: 15,
-    name: "Set Bekal Anak Thermal",
+    name: "Set Bekal Thomas Simple",
+    slug: "set-bekal-thomas-simple",
     description:
-      "Set bekal dengan teknologi thermal yang menjaga makanan tetap hangat, ideal untuk bekal nasi dan lauk anak.",
-    image: "/images/set-bekal-anak-thermal.jpg",
+      "Bekal Thomas dengan kotak makan dan botol 550ml teguk, praktis untuk sekolah.",
+    image: "/set-bekal-gallery/set-bekal-thomas-kotak-makan-botol550mlteguk.jpg",
   },
-]
+];
+
+
 
 export const siteConfig = {
   name: "Lipink2003",
   description: "Menyediakan berbagai pilihan set bekal anak lucu dan praktis untuk sekolah atau kegiatan sehari-hari.",
-  url: "https://lipink2003.com",
-  whatsappNumber: "6281234567890", // Replace with actual WhatsApp number
-  shopeeUrl: "https://shopee.co.id/lipink2003", // Replace with actual Shopee store URL
+  url: "https://setbekalanak.web.id",
+  whatsappNumber: "628122208580", 
+  shopeeUrl: "https://shopee.co.id/lipink2003", 
 }
