@@ -236,7 +236,7 @@ export default function ClientHomePage() {
                       <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-pink-50 to-purple-50">
                         <Image
                           src={product.image || "/placeholder.svg"}
-                          alt={`Set bekal anak ${product.name} - Karakter lucu untuk sekolah dengan lunch box, botol minum, dan peralatan makan lengkap`}
+                          alt={`${product.name} - Karakter lucu untuk sekolah dengan lunch box, botol minum, dan peralatan makan lengkap`}
                           fill
                           className="object-cover group-hover:scale-110 transition-transform duration-500"
                           sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
@@ -264,7 +264,7 @@ export default function ClientHomePage() {
                     <CardContent className="p-5">
                       <Link href={`/produk/${productSlug}`}>
                         <h3 className="font-bold text-lg text-gray-900 mb-3 line-clamp-1 group-hover:text-pink-600 transition-colors">
-                          Set Bekal Anak {product.name}
+                          {product.name}
                         </h3>
                       </Link>
                       

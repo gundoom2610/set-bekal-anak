@@ -74,7 +74,7 @@ export default function ProductDetailPageClient({ product }: ProductDetailPagePr
   const productStructuredData = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: `Set Bekal Anak ${product.name}`,
+    name: `${product.name}`,
     description: `Set bekal anak lengkap dengan tema ${product.name} - lunch box, botol minum, peralatan makan. 100% food grade, anti bocor, BPA free. Cocok untuk sekolah dan aktivitas anak.`,
     image: product.image,
     brand: { "@type": "Brand", name: siteConfig.name },
@@ -156,7 +156,7 @@ export default function ProductDetailPageClient({ product }: ProductDetailPagePr
             {/* Right: Info */}
             <div className="space-y-6">
               <h1 className="text-3xl md:text-4xl font-bold">
-                Set Bekal Anak <span className="text-pink-600">{product.name}</span>
+                <span className="text-pink-600">{product.name}</span>
               </h1>
               <p className="text-lg text-gray-700">{product.description}</p>
 
